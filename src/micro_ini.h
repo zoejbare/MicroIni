@@ -58,6 +58,8 @@
 	#else
 		#define MICRO_INI_API
 	#endif
+#else
+	#define MICRO_INI_API
 #endif
 
 #ifdef __cplusplus
